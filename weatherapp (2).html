@@ -1,0 +1,56 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weatherapp2.css">
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+ </head>
+ <body>
+    <div id="maindiv">
+        <div id="blackbox"></div>
+    </div>
+    
+<div id="temp">
+
+    
+    <i class="fa-solid fa-cloud-sun"></i>
+    <h1 id="mainweather">Partially Cloudy</h1>
+    <p id="city"></p>
+    <h2 id="temperature">28°</h2>
+    <p id="description">Scattered Clouds</p>
+     <select id="SelectCity">
+         <option value="" >Select your city</option>
+        <option value="Faisalabad" >Faisalabad</option>
+        <option value="Lahore">Lahore</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Karachi">Karachi</option>
+        <option value="Multan">Multan</option>
+     </select>
+    
+    <h3 id="humidityHeading">Humidity</h3>
+    <p id="humidity">75%</p>
+
+    <h3 id="pressureHeading">Pressure</h3>
+    <p id="pressure">1012 hPa</p>
+
+    <h3 id="rainHeading">Chance of Rain</h3>
+    <p id="rain">0%</p>
+
+    <h3 id="windHeading">Wind</h3>
+    <p id="wind">12 km/h</p>
+
+    
+    <p id="day"></p>
+
+    <div id="forecast"></div>
+
+</div>
+     
+    <script src="weatherapp2.js"></script>
+ </body>
+ </html>
